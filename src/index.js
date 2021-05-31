@@ -17,7 +17,7 @@ module.exports = ({ addVariant, theme }) => {
   }
 
   function generatePseudoClassVariant(themeVariant, pseudoClass, selectorPrefix = pseudoClass) {
-    const root = `.theme-${themeVariant} `
+    const root = `.${themeVariant} `
     addVariant(`${themeVariant}:${selectorPrefix}`, ({ modifySelectors, separator }) => {
       modifySelectors(({ selector }) => {
         return selectorParser((selectors) => {
@@ -32,7 +32,7 @@ module.exports = ({ addVariant, theme }) => {
   }
 
   function generateGroupVariant(themeVariant, pseudoClass, selectorPrefix) {
-    const root = `.theme-${themeVariant} `
+    const root = `.${themeVariant} `
     addVariant(`${themeVariant}:${selectorPrefix}`, ({ modifySelectors, separator }) => {
       modifySelectors(({ selector }) => {
         return selectorParser((selectors) => {
@@ -46,7 +46,7 @@ module.exports = ({ addVariant, theme }) => {
   }
 
   function generateDefaultVariant(themeVariant) {
-    const root = `.theme-${themeVariant} `
+    const root = `.${themeVariant} `
     addVariant(`${themeVariant}`, ({ modifySelectors, separator }) => {
       modifySelectors(({ selector }) => {
         return selectorParser((selectors) => {

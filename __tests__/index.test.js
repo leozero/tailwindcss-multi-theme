@@ -75,7 +75,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:text-gray-100 {
+        .dark .dark\\:text-gray-100 {
           color: #333333
         }
       `)
@@ -93,7 +93,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .group:hover .dark\\:group-hover\\:text-gray-100 {
+        .dark .group:hover .dark\\:group-hover\\:text-gray-100 {
           color: #333333
         }
       `)
@@ -111,7 +111,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .group:focus .dark\\:group-focus\\:text-gray-100 {
+        .dark .group:focus .dark\\:group-focus\\:text-gray-100 {
           color: #333333
         }
       `)
@@ -129,7 +129,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:focus-within\\:text-gray-100:focus-within {
+        .dark .dark\\:focus-within\\:text-gray-100:focus-within {
           color: #333333
         }
       `)
@@ -147,7 +147,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:first\\:text-gray-100:first-child {
+        .dark .dark\\:first\\:text-gray-100:first-child {
           color: #333333
         }
       `)
@@ -165,7 +165,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:last\\:text-gray-100:last-child {
+        .dark .dark\\:last\\:text-gray-100:last-child {
           color: #333333
         }
       `)
@@ -183,7 +183,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:odd\\:text-gray-100:nth-child(odd) {
+        .dark .dark\\:odd\\:text-gray-100:nth-child(odd) {
           color: #333333
         }
       `)
@@ -201,7 +201,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:even\\:text-gray-100:nth-child(even) {
+        .dark .dark\\:even\\:text-gray-100:nth-child(even) {
           color: #333333
         }
       `)
@@ -219,7 +219,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:hover\\:text-gray-100:hover {
+        .dark .dark\\:hover\\:text-gray-100:hover {
           color: #333333
         }
       `)
@@ -237,7 +237,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:focus\\:text-gray-100:focus {
+        .dark .dark\\:focus\\:text-gray-100:focus {
           color: #333333
         }
       `)
@@ -257,7 +257,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:focus\\:text-gray-100:focus {
+        .dark .dark\\:focus\\:text-gray-100:focus {
           color: #333333
         }
         .placeholder-gray-100::placeholder {      
@@ -266,7 +266,7 @@ describe('plugin', () => {
         .focus\\:placeholder-gray-100:focus::placeholder {
           color: #333333
         }
-        .theme-dark .dark\\:focus\\:placeholder-gray-100:focus::placeholder {
+        .dark .dark\\:focus\\:placeholder-gray-100:focus::placeholder {
           color: #333333
         }
       `)
@@ -284,7 +284,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:active\\:text-gray-100:active {
+        .dark .dark\\:active\\:text-gray-100:active {
           color: #333333
         }
       `)
@@ -302,7 +302,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:visited\\:text-gray-100:visited {
+        .dark .dark\\:visited\\:text-gray-100:visited {
           color: #333333
         }
       `)
@@ -320,7 +320,7 @@ describe('plugin', () => {
         .text-gray-100 {
           color: #333333
         }
-        .theme-dark .dark\\:disabled\\:text-gray-100:disabled {
+        .dark .dark\\:disabled\\:text-gray-100:disabled {
           color: #333333
         }
       `)
