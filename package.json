@@ -24,7 +24,12 @@
     "type": "git",
     "url": "https://github.com/estevanmaito/tailwindcss-multi-theme.git"
   },
-  "keywords": ["tailwind", "theme", "dark", "multi"],
+  "keywords": [
+    "tailwind",
+    "theme",
+    "dark",
+    "multi"
+  ],
   "author": "Estevan Maito <ejmaito@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -50,14 +55,14 @@
     "husky": "4.2.5",
     "jest": "26.0.1",
     "lodash": "4.17.19",
-    "postcss": "7.0.30",
+    "postcss": "^8.3.0",
+    "postcss-selector-parser": "^6.0.6",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
     "semantic-release": "^17.0.8",
     "tailwindcss": "1.4.6",
     "webpack": "4.43.0",
-    "webpack-cli": "3.3.11",
-    "postcss-selector-parser": "6.0.2"
+    "webpack-cli": "3.3.11"
   },
   "config": {
     "commitizen": {
@@ -70,6 +75,6 @@
     }
   },
   "peerDependencies": {
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^2.1.2"
   }
 }
